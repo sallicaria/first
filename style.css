@@ -1,0 +1,35 @@
+body {
+  background: rgb(74, 106, 211);
+}
+
+.block {
+  height: 100px;
+  width: 200px;
+  background: silver;
+  margin-top: 10px;
+}
+
+.block > span {
+  color: wheat;
+}
+
+.block > .span {
+  background: yellowgreen;
+}
+
+.bigblock{
+height: 500px;
+width: 500px;
+background-color: teal;
+margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
+margin: 50px 100px;
+}
+
+.littleblock{
+height: 200px;
+width: 200px;
+background-color: thistle;
+
+}
