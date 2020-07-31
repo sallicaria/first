@@ -28,7 +28,8 @@ body {
   position: relative;
 }
 
-.littleblock {
+.littleblock,
+.littleblock2 {
   height: 400px;
   width: 400px;
   background-color: thistle;
@@ -37,4 +38,25 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
+}
+
+.bigblock2 {
+  padding: 20px;
+}
+
+.paddingblock {
+  height: 200px;
+  width: 600px;
+  background: blanchedalmond;
+  padding-top: 20px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+.paddingblock-child {
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+  float: left;
+  margin-left: 20px;
 }
