@@ -28,8 +28,17 @@ body {
   position: relative;
 }
 
-.littleblock,
-.littleblock2 {
+.bigblock:hover {
+  background: firebrick;
+}
+
+.bigblock:hover > .littleblock {
+  background: greenyellow;
+  height: 100px;
+  width: 100px;
+}
+
+.littleblock {
   height: 400px;
   width: 400px;
   background-color: thistle;
@@ -40,8 +49,8 @@ body {
   left: 50%;
 }
 
-.bigblock2 {
-  padding: 20px;
+.littleblock:hover {
+  background: gray !important;
 }
 
 .paddingblock {
